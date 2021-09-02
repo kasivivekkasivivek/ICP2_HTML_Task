@@ -1,0 +1,142 @@
+
+/* covid 19 main page */
+.main-container{
+    min-height:100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+                /* header of the covid 19 page */
+.covid_header_container{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+/* header text container */
+.covid_header_text_container{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.covid_header_heading{
+    font-size:20px;
+    font-family: "Roboto";
+    text-align: center;
+    font-weight: 600;
+}
+@media screen and (min-width:768px){
+    .covid_header_heading{
+        font-size: 35px;
+    }
+}
+.covid-span{
+    color:red;
+}
+.know_more_button{
+    color: white;
+    background-color: rgb(30, 42, 211);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+    border-radius: 8px;
+    border: none;
+    padding:8px 13px 8px 13px;
+}
+.header_image_container{
+    width:40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* header image */
+.covid_header_image{
+    width:50%;
+    min-width:120px;
+    min-height:100px;
+}
+
+.introduction-about-covid{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+.about-covid{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*  symtoms container */
+.covid_symtoms_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-top:30px;
+}
+.symtoms_heading{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 600;
+}
+@media screen and (min-width:768px){
+    .symtoms_heading{
+        font-size: 35px;
+    }
+}
+.list-items-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.symtoms-orderedlist-container,.symtoms-unorderedlist-container{
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_item{
+    font-size:18px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
+
+.symtoms-image-container{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.symptoms_image{
+    width:50%;
+}
+
+.covid-video-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.video-heading{
+    text-align:center;
+}
